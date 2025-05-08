@@ -1,0 +1,207 @@
+- SoftwareInstall programsOffice 2019
+- Software
+- Install programs
+- Office 2019
+- AccountsCSIC AccountDomain AccountICMAB's Intranet AccountPassword Change
+- Accounts
+- CSIC Account
+- Domain Account
+- ICMAB's Intranet Account
+- Password Change
+- NetworkVPNRDPNetwork Drives and ServersEduroamVoiceIP
+- Network
+- VPN
+- RDP
+- Network Drives and Servers
+- Eduroam
+- VoiceIP
+- PrintersInstall printersSend files to printHow to printHow to scanAccess printers from outside
+- Printers
+- Install printers
+- Send files to print
+- How to print
+- How to scan
+- Access printers from outside
+- Mail2FAZimbra WebmailSmartphoneOutlookCSIC Account in Zimbra
+- Mail
+- 2FA
+- Zimbra Webmail
+- Smartphone
+- Outlook
+- CSIC Account in Zimbra
+- SupportOpen a Ticket
+- Support
+- Open a Ticket
+
+¿Cómo se realiza lo siguiente?: #Software
+
+¿Cómo se realiza lo siguiente?: #Install programs
+- You can access to most of the software that is used in ICMAB by going to\\neolabs\ICMAB\DOC-INFORMATICAor in the CSIC intranet. All users have administration privileges in its computers so, you should be able to install any program you want.
+- If you want to install software from CSIC intranet, you can do it accessingInicio > Peticiones TIC > Software Corporativo. There, you'll find three different types of software, which are: Scientific calculus and statistics software, General use software and Teledetection and GIS.
+- Note
+- If you don't have a CSIC account you canclick hereto se more about it.
+- Now you just have to select one category of software, fill the form and your request will be sent, after a few days, you should recive an email with an installer of some kind and a licence if it's needed.
+- Note
+- If the program you want to install is not there, please open a ticket in oursupport web applicationand we'll tell you if it's or not possible to install it.
+- Keep in mind
+- If you're using a new computer, it's possible that you'll need to activate Windows and MS Office, to do so, please go to "Software de uso general" section located inInicio > Peticiones TIC > Software Corporativo, and request both licences.
+
+¿Cómo se realiza lo siguiente?: #Office 2019
+- In order to install Office 2019 you must make a request usingCSIC Intranet. You'll also need to uninstall all versions of Office that are installed in your computer.
+- Once your request is accepted, download and unzip the installation file. Once unziped, open the folder and double click "Office_Deployment_Tools_2019" to run the executable.
+- When the setup wizard starts, accept the licence agreement and select a destination folder to extract all the files needed for the installation. This folder must be the same one where the "Office_Deployment_Tools_2019" file is. Once done, you should have all the files shown in the image.
+- Now, you have to open a command prompt by pressingWin+Rand writtingcmd. Then, typecd "Path_to_the_installation_folder"and pressEnterto go to that folder.
+- Note
+- "Path_to_the_installation_folder" is the Office 2019 folder with all the files shown in the last section
+- Then, writesetup /configure configuration.xmland pessEnter. Note that "configuration.xml" is a file in the folder. Then, the Office installation will start automatically.
+- Once the installation is completed, open an Office suite program and if you're asked to active the licence select the one that says "I want to activate the software via Internet"(Default option). Then, Office 2019 is ready to be used.
+
+¿Cómo se realiza lo siguiente?: #Accounts
+
+¿Cómo se realiza lo siguiente?: #CSIC account
+- CSIC account is mainly used to request software and get access to eduroam network, but you can also see useful information such as your monthly paysheet. Please visitsoftwareandnetworkto dive deep in those topics.
+- Note
+- If you don't have a CSIC account you canclick hereto se more about it.
+
+¿Cómo se realiza lo siguiente?: #Domain account
+- When we talk about your domain account, we're refering to the user name and password you use to log in your computer. This account gives access to your ICMAB email, to ICMAB's intranet, to your computer and to any computer that is in ICMAB domain. This account also provides you with aHOMEnetwork drive that allows you to store data and accesss it from any computer, you cancheck this feature here.
+- If you have registered your fingerprints, your domain account will grant access toPresencia web aplication, where you can see your clock in and clock out timestamps and make holiday requests.
+- Keep in mind
+- From February 1, 2023 it will be possible to request Vacations and Leaves through the CSIC Intranet.
+- Icon on the CSIC Intranet (Photographic machine -Vacation)
+- The personnel who receive CSIC payroll and Drs. Ad Honorem can request vacation days and work permit for the year 2023. If you wish to spend the remaining days of the year 2022, you must do it through the ICMAB Intranet (as before).
+- Staff who do not receive a salary from the CSIC should continue to request their vacation days and leave through the ICMAB Intranet (as before).
+
+¿Cómo se realiza lo siguiente?: #ICMAB Intranet
+- ICMAB intranet is a website where you can consult documents and acces to requests in ICMABcheck this website here.
+
+¿Cómo se realiza lo siguiente?: #Password change
+- The processes for changing the password for the domain account and the intranet account are differen.t
+- If you want to change your password, you can change it using the keyboard shorcutsCTRL+ALT+SUPRat the same time.
+- Next, click in change password and put in the first box your password. In the second and third box your new password and then, do an enter for change the password.
+- Remember this change only apply in domain account, mail and vpn.
+- You can change the password by login inICMAB Compresv2with your domain account credentials, and going to "Password Management".
+- Once you have changed the password, the next time you want to log in, you must do it with the new password.
+- Keep in mind
+- This process only changes ICMAB's Intranet password. The password that you use for other ICMAB's services such as mail, vpn and domain account will not be updated.
+
+¿Cómo se realiza lo siguiente?: #Network
+
+¿Cómo se realiza lo siguiente?: #Virtual Private Network
+- VPN stands for Virtual Private Network and it's a powerful tool that allows you to connect to ICMAB's network as if you were there!
+- There's two use cases when using the VPN. The first one is that you want toaccess using your personal computer that is not related to ICMAB, and the second one is that you want toaccess using an ICMAB laptop. The VPN connection procedure is different in both cases, please click in the links to get started.
+- In order to connect to ICMAB's VPN using your computer you must installForticlient VPN Clientapplication. It's a free limited version of FortiClient antivirus that we use in ICMAB.
+- Once installed, you should be able to see a blue shield icon in the toolbar, right-click on it and select "Open FortiClient Console". A new window will pop up, then click in the three line icon and select "Add a new connection". Finally, fill the configuration form with the information shown in the screenshot to complete the profile set up. Click "Save" and now, you should be able to connect to ICMAB's VPN using your domain account.
+- In order to connect to ICMAB VPN you'll use a built in feature from an antivirus software called FortiClient that is installed in your laptop.
+- If you look at the left bottom of windows toolbar, you should be able to see an arrow pointing upwards, if you click there some icons will be displayed and you'll have to find one that is a blue shield with a tick mark, this is the FortiClient antivirus.
+- Be aware!
+- Instead of a blue shield with a tick mark, it's posible that a yellow shield with an exclamation mark is shown. In this case, there's some problem with FortiClient and the VPN services might not work properly, please open a ticket inour web applicationand we'll take care of the issue.
+- If you right click in this icon, a menu will be displayed and if you then click in "connect to ICMAB", the built-in VPN tool will pop up in a new window. There you can use your domain account to connect via VPN to the ICMAB.
+
+¿Cómo se realiza lo siguiente?: #Remote Desktop Protocol
+- Remote Desktop Protocol or RDP is a protocol that allows you to connect to a computer inside your local network. You can use it to connect tosciencia1when you're using a computer inside ICMAB and alongside our VPN when your're outside the institute.
+- To do so, open "Remote Desktop Connection" by searching it on Windows. Once is open, in the "computer" field you have to typesciencia1followed by.icmab-csic.icmab.esand if you try to connect, a new window should pop up asking for your domain account credentials.
+- Keep in mind
+- If you're trying to use RDP when using the VPN from a computer that is not from ICMAB, is possible that the authentication fails. If that's the case, click on "Show options" button and in the user name field typeICMAB-CSIC\{your_username}whereyour_usernameis the username for your domain account.
+- Once you're logged in, you'll be able to use the aplications and resurces of the server.
+
+¿Cómo se realiza lo siguiente?: #Network Drives and Servers
+- ICMAB has plenty of different network resources that you can access when using your user domain account. The\\neolabsserver; where you can find different folders to store data that can be accessed by your peers, the\\sprintserver; where you can install ourprinter drivers, theZ:/HOMEnetwork unit; where you can store you data and access it from any ICMAB computer, and thesciencia1server; where you can access by VPN and RDP to use some applications and access the other network resources using a computer that is not in the institute.
+- You can access\\neolabsby opening the explorer by pressingWin+E, going to "Network" tab located in the bottom of the sidebar, typing\\neolabsin the explorer top bar and pressnigenter. Then you'll see all the shared folders in the server.
+- Keep in mind
+- You're supposed to only have access to your group shared folders, if you notice that you do not have access to the folders of your group, there's some kind of problem with your account, so please open a ticket in oursupport web application
+- This is the server that manages the print queues and it's used to install the printer driver. You canread more here.
+- TheHOMEnetwork unit, is a personal space that allows you to store data and access it form any ICMAB computer using your domain account. If you log in a computer that is in ICMAB's domain using your domain account, this unit will be available automatically.
+- To access this network drive, open the explorer by pressingWin+Eand go to "This PC" tab. Once there you should be able to see this unit in the "network locations" section.
+- Note
+- The data that you save in this drive is stored in a server, it means that if your local hard disk drive breaks this data will not be affected, so is a really convenient feature that you should keep in mind in order keep your data safe.
+- Some times you'll find that you computer resurces are not enough to use certain software or you want to have inmediate access to a specific software that requires a licence and you don't want to wait for the licence request process. In this case, you can connect to oursciencia1public use server and use its resources instead. To do so, you'll use RDP to connect to this servers, you can read more about ithere.
+- Note
+- You can take advantatge of theHome drivefeature that allows you to access it from any computer where you logged in with your domain account to move files between the server and your computer as you can see in the image.
+
+¿Cómo se realiza lo siguiente?: #Eduroam
+- Eduroam (education roaming) is the secure, world-wide roaming access service developed for the international research and education community. Eduroam allows students, researchers and staff from participating institutions to obtain Internet connectivity across campus and when visiting other participating institutions by simply opening their laptop.
+- You can access Eduroam services using you CSIC account, if you don't have a CSIC account you canclick hereto get started.
+- First things first, go toCSIC intranetand log in using your account. Once there, you should click in "Acceso WiFi" which translates as "WiFi Access" then scroll down until the "Instalador de configuración para eduroam" section (there's a QR code, you can take that as a refernce) and click in the link to cat.eduroam.org/.
+- You will be redirected to a page that allows you to install the Eduroam certificate. Choose the "Usuarios CSIC" option and then a download button for the set up wizard will be shown depending of your OS.
+- Now, the configuration procedure changes depending if you want to connect alaptopor asmartphone, choose the option that fits the most for your case.
+- Now that you have the installer downloaded, you can start the setup wizard. Double click in the installer to get started. A couple of screens will show up, we're going to select the default option for both, then, a third screen will be shown asking you to type your CSIC credentials.
+- Keep in mind
+- It's important to write the domain@csic.esafter your username, otherwise it will not work.
+- Once the installation completes, click in "Finalizar" or "Finish" and you should connect to Eduroam automatically.
+- Keep in mind
+- It's possible that in the installaion process a windows warning message about the validation of the Eduroam certificate shows up, just select "Sí" to allow windows to proceed with the installation.
+- Coming soon
+- Work in progress
+
+¿Cómo se realiza lo siguiente?: #Voice IP
+- Coming soon
+- Work in progress
+
+¿Cómo se realiza lo siguiente?: #Printers
+- ICMAB printers are connected to a dedicated print server that manages all print requests. Thanks to that, you are able to log in any printer to use it to print your documents.
+
+¿Cómo se realiza lo siguiente?: #Install printers
+- In order to be able to send print requests, you'll need first to install the driver. To do so, open the explorer by pressingWin+E, go to the "Network" tab and type\\sprintin the explorer top bar.
+- Once you're in the servers root, double click inICMAB-PRINTERSto start the driver installation process, a new window will pop up with a bar that shows the status of the installation, once completed you should be able to use ICMAB printers. You can double click inICMAB-PRINTERSagain and if you had already installed the drivers, a new window with the print queue will pop up instead, you can check if the drives had successfully installed by doing this.
+
+¿Cómo se realiza lo siguiente?: #Send files to print
+- To print a file, select the "ICMAB-PRINTERS" option to send the request. You can see your document in the printer queue.
+
+¿Cómo se realiza lo siguiente?: #How to print
+- Once you sent a file to print, you can go to any printer in ICMAB and log in using your domain account credentials or your printer code (not the user id). Once logged in, an interface will be displayed, you can select "Liberar Impresión" to chose the documents that you want to print or "Liberar Todo" to print all documents.
+- Note
+- You can open a ticket in oursupport web applicationto request us to send you the printer code.
+
+¿Cómo se realiza lo siguiente?: #How to scan
+- Once you put the file in the scanner, log in the printer using your domain account credentials or your printer code. Once logged in, an interface will be displayed, you can select "Escanear" to scan the document in the scanner, then you'll be able to choose if you want to send the scanned documents to a local folder (this option will save the documents in\\neolabs\SCAN) or to your email.
+
+¿Cómo se realiza lo siguiente?: #Access printers from outside
+- If you need to use ICMAB printers from outside ICMAB network you can do it following this steps:
+- First, you must be connected to theVPN. Then, use the browser and access tohttp://172.19.19.20:9163/setupand install the application "Mobility Print" for you OS.
+- In the setup wizard, different windows will be shown. In the "Printer Selection" step, selectICMAB-PRINTERS. In the "Network Login" step, put your credentials like is shown below.
+- Once the installation is completed, you should be able to see the optionICMAB-PRINTERSin "printer" field when printing.
+
+¿Cómo se realiza lo siguiente?: #Email
+- You can access your ICMAB email account by all types of applications that have different pros and cons. In this section we'll talk about all of them so you can chose the one that fits the most for your case.
+
+¿Cómo se realiza lo siguiente?: #Two-factor Authentication
+- 2FA is a second layer of security that is used to protect your accounts. The first time you log in into your email, it will ask you to configure this 2FA feature. Click in "Begin Setup" to get started and a new window will be shown asking for your password again, write your password and click "Next"
+- Now you will need to install an app in your smartphone to manage 2FA codes that is calledGoogle Authenticator. You can download it from the store app of your device.
+- Once downloaded, open the app and add a new config key. A new window will open asking you for the account name and your key, in the account name field put some name to identify this account, and in the key filed, put the code that is beeing shown in the Zimbra 2FA setup. In type of key, select the default "Time based" option.
+- After this, the configuration should be done and you should be able to see a 6 digit changing code in Google Authenticator that will grant access to your email account alongside your password.
+- Be aware!
+- If you are not able to use your phone for whatever reason you will not be able to user your email. That's why you have to write down or print the codes that are shown in Preferences < Accounts < One-use Codes before this happens. Those codes will allow you to use them as if were the codes shown in Google Authenticator.
+
+¿Cómo se realiza lo siguiente?: #Zimbra Webmail
+- Zimbra webmail is the most basic and easy to access of all of them. To use it, go towebmail.icmab.esand log in using your domain account credentials and 2FA code. Once logged in, your inbox should be displayed.
+
+¿Cómo se realiza lo siguiente?: #Email in Smartphones
+- In order to configure your email account in your smartphone, go to your device settings and search for some option like "Accounts" or "Manage Accounts" and go to "Add Account". Then, select the "Exchange" option for your usual mail application (gmail in the screenshot) and when prompted, put you email address and press "Configure Manually".
+- Before starting the manual configuration, go towebmailand log in with your account. Once logged in, go toPreferences < Accounts < Primary Account Settingsand click in "Add Application Code". When prompted, write the descriptive name for the app and click next. Finally, a code will appear, you have to put this code in the password field when doing the manual configuration in you smartphone.
+- Go back to your smartphone and let's resume the configuration. In "Account Data" write your email and the code that you've just generated in webmail. Then, scroll down to "Server Settings", fill the form as shown in the image and finish the configuration. You should now be able to see your icmab account in the email application of your device.
+- Keep in mind
+- In the "Server Settings" section, the "Domain/Username" field is your username without the @ symbol.
+
+¿Cómo se realiza lo siguiente?: #CSIC Account in Zimbra
+- In order to configure our CSIC account in Zimbra we will need to know some stuff about the CSIC mail server structure.
+- POP3 / IMAP Port995 / 993
+- SMTP587
+- Mail in servercorreo.csic.es
+- Mail out serversmtpin.csic.es
+- EncryptionSSL / TLS
+- Keep in mind
+- When replying to an email sent to your CSIC account, the account used to send the reply is the ICMAB zimbra account not the CSIC account.
+
+¿Cómo se realiza lo siguiente?: #CSIC Account in Zimbra Webmail
+- After login into your ICMAB zimbra account, go toPreferences > Accountsand select "Add External Account".
+- A form with different sections will be displayed. In the first section you have to specify your CSIC account and set an account name to identify it in the application.
+- In the second section, you will need to specify you CSIC Account username (the one that you use to log in into the CSIC intranet), the email server (the "mail in server" parameter specified in the introduction of this section) and your CSIC Account password (the same one that you use to log in into the CSIC intranet).
+- In advanced settings check both checkboxes and write the port that is specified in the introduction.
+- You can let the other sections in its default values and then click "Test Settings", then click save and your CSIC Account should be ready to use.
+
+¿Cómo se realiza lo siguiente?: #Support
+- If you have any problems or questions that can not be solved with this documentation you can open a ticket in oursupport web applicationor ask your group coordinator.
+
+¿Cómo se realiza lo siguiente?: #How to open a ticket
+- First, go to oursupport web applicationand log in using your domain account credentials. Then, go to "New Ticket" in "Helpdesk" section. Write a descriptive subject and your issue, you can also specify if it's a purchase request in "Type" field. Once completed click "Send" and your request will be processed in the following days.
